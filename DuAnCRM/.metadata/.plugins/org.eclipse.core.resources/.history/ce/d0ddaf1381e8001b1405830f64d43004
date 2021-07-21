@@ -1,0 +1,12 @@
+package DuAnCRM_TASK.Service;
+
+import DuAnCRM_TASK.Dao.TaskDao;
+
+public class TaskService {
+	private TaskDao dao;
+
+	public TaskService() {
+		dao = new TaskDao();
+
+	}
+}

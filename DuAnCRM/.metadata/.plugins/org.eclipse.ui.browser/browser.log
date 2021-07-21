@@ -1,0 +1,19 @@
+
+Jul 15, 2021 15:03:10.336 NEW SESSION
+Jul 15, 2021 15:03:10.336 [4508:12940:0715/150310.333:ERROR:device_event_log_impl.cc(214)] [15:03:10.332] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 15, 2021 15:03:10.337 [4508:12940:0715/150310.334:ERROR:device_event_log_impl.cc(214)] [15:03:10.333] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Jul 15, 2021 15:08:00.27 [4508:12940:0715/150800.027:ERROR:CONSOLE(1)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.msn.com') does not match the recipient window's origin ('https://ntp.msn.com').", source: https://www.msn.com/vi-vn/homepage/secure/silentpassport?secure=true& (1)
+Jul 15, 2021 16:02:51.593 [4508:12940:0715/160251.592:ERROR:device_event_log_impl.cc(214)] [16:02:51.590] USB: usb_service_win.cc:258 Failed to get device driver name: Element not found. (0x490)
+Jul 15, 2021 18:16:56.942 [4508:12940:0715/181656.923:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 18:17:01.861 [4508:12940:0715/181701.861:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 18:17:06.843 [4508:12940:0715/181706.843:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 18:27:22.15 [4508:12940:0715/182722.011:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 19:52:13.90 [4508:12940:0715/195213.061:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 19:52:53.01 [4508:12940:0715/195253.001:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:01:08.999 [4508:12940:0715/210108.967:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:01:28.862 [4508:12940:0715/210128.852:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:02:58.883 [4508:12940:0715/210258.881:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:03:28.892 [4508:12940:0715/210328.891:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:04:14.00 [4508:12940:0715/210413.998:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:16:59.163 [4508:12940:0715/211659.156:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005
+Jul 15, 2021 21:17:04.112 [4508:12940:0715/211704.111:ERROR:wtm_interface_impl.cc(708)] SetTabTreatAsAppId(contents) failed, hr=0x80004005

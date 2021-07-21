@@ -1,0 +1,73 @@
+package DuAnCRM_TASK.Servlet;
+
+import java.io.IOException;
+import java.util.List;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import DuAnCRM_TASK.Service.TaskService;
+import DuAnCRM_TASK.UrlUtil.PathUtil;
+import DuAnCRM_TASK.UrlUtil.UrlUtil;
+import DuAnCRM_TASK.model.Task;
+
+@WebServlet(urlPatterns = { UrlUtil.URL_STACK_ADD, UrlUtil.URL_STACK_DASHBOARD, UrlUtil.URL_STACK_UPDATE })
+public class TaskServlet extends HttpServlet {
+	private TaskService service;
+
+	@Override
+	public void init() throws ServletException {
+		service = new TaskService();
+	}
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		switch (req.getServletPath()) {
+		case UrlUtil.URL_STACK_DASHBOARD:
+			getTaskDashBoard(req, resp);
+			break;
+		case UrlUtil.URL_STACK_ADD:
+			getTaskAdd(req, resp);
+			break;
+		case UrlUtil.URL_STACK_UPDATE:
+			getTaskUpdate(req, resp);
+			break;
+		case UrlUtil.URL_STACK_DELETE:
+			getTaskDelete(req, resp);
+			break;
+		}
+	}
+
+	private void getTaskUpdate(HttpServletRequest req, HttpServletResponse resp) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private void getTaskAdd(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		req.getRequestDispatcher(PathUtil.PATH_STACK_ADD).forward(req, resp);
+		
+	}
+
+	private void getTaskDashBoard(HttpServletRequest req, HttpServletResponse resp)
+			throws ServletException, IOException {
+		List<Task> tasks = service.findTask();
+		if (tasks != null && !tasks.isEmpty())
+			req.setAttribute("tasks", tasks);
+
+		req.getRequestDispatcher(PathUtil.PATH_STACK_DASHBOARD).forward(req, resp);
+
+	}
+
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		switch (req.getServletPath()) {
+		case UrlUtil.URL_STACK_DASHBOARD:
+			break;
+
+		}
+	}
+
+}

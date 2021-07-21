@@ -1,0 +1,14 @@
+package DuAnCRM_TASK.Dao;
+
+import java.util.List;
+
+import DuAnCRM_TASK.model.Task;
+
+public class test {
+	TaskDao dao = new TaskDao();
+List<Task>tasks = dao.findTask();for(
+	Task t:tasks)
+	{
+
+	}
+}

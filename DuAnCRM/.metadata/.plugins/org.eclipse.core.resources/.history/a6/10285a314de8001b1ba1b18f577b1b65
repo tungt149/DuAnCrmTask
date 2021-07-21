@@ -1,0 +1,5 @@
+package DuAnCRM_TASK.mysqlconnection;
+
+public class checkConnection {
+
+}

@@ -1,0 +1,8 @@
+package DuAnCRM_TASK.mysqlconnection;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+@WebServlet(urlPatterns = "/check")
+public class checkConnection extends HttpServlet {
+
+}

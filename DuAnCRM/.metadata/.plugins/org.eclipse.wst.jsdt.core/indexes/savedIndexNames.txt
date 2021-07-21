@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\admin\Desktop\DuAnCRM\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2600409387.index
+311973633.index
+1675910007.index
+3273582881.index
+3691016369.index
+2372518057.index

@@ -1,0 +1,5 @@
+package DuAnCRM_TASK.dto;
+
+public class TaskCreateDto {
+
+}

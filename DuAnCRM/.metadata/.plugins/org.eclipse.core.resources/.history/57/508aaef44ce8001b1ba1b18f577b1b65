@@ -1,0 +1,7 @@
+package DuAnCRM_TASK.mysqlconnection;
+
+public class MySqlConnection {
+private static final String url = "jdbc:mysql://localhost:3306/crm";
+private static final String name = "root";
+private static final String password="1234";
+}
